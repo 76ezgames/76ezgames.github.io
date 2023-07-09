@@ -6,16 +6,14 @@ function addCss(){
         z-index: 9999;
         top: 30px;
         left: 0;
-        width: 150px;
-        height: 43px;
-        background: #fff;
+        width: 160px;
+        height: 70px;
         border-radius: 0 290486px 290486px 0;
         color: #000;
         padding: 0 10px;
         line-height: 43px;
         min-height: 43px;
         border: none;
-        border-bottom: 1px solid #b5b5b5;
         will-change: transform;
         animation: bounceY 2s .5s;
         transition: transform .5s cubic-bezier(.55,0,.1,1);
@@ -26,19 +24,18 @@ function addCss(){
     
     button.in-game-button svg {
         pointer-events: none;
-        color: #b5b5b5;
         margin-right: .625rem;
         display: inline-block
     }
     
     button.in-game-button img {
         pointer-events: none;
-        width: 130px;
-		heigt:35px;
+        width: 150px;
+		heigt:60px;
     }
     
-    button.in-game-button:active {
-        background: #1ec2e5
+    button.in-game-button:hover {
+        background: #b2ada8;
     }
     
     button.in-game-button[attr-active=true] {
@@ -205,7 +202,7 @@ function addCss(){
 }
 function addBtnHome() {
    var referrer = document.referrer.toLowerCase();
-  if (referrer.indexOf("https://66ezgames.github.io/") !== -1) {
+  if (referrer.indexOf("https://76ezgames.github.io/") !== -1) {
     var e = document.createElement('button');
     e.className = 'in-game-button2'; // change class to 'in-game-button2'
     e.id = 'inGame';
@@ -217,7 +214,7 @@ function addBtnHome() {
     e.className = 'in-game-button';
     e.id = 'inGame';
     e.innerHTML = `
-      <img src="https://blackboro.github.io/games/logo-77games.png" width="130px" height="35px" alt="77GAMES.io">`;
+      <img src="https://76ezgames.com/logogithub.png" width="150px" height="60px" alt="76EZGAMES.com">`;
     document.getElementsByTagName('body')[0].appendChild(e);
   }
 }
@@ -253,11 +250,11 @@ function returnHome(){
     if(window.hold == true){
         return;
     }
-    var newWindow = window.open("https://77games.io", "_blank");
-    newWindow.document.title = "77GAMES.io";
+    var newWindow = window.open("https://76ezgames.com", "_blank");
+    newWindow.document.title = "76 EZ GAMES";
 }
 function opendiscord(){
-    window.open("https://77games.io");
+    window.open("https://76ezgames.com");
 }
 window.alert = function() {};
 

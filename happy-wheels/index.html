@@ -1,88 +1,124 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-<title>Happy Wheels Unblocked - 77GAMES.io</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF8">
-	<meta name="theme-color" content="#36393F">
-        <meta property="og:image:url" content="https://i.ibb.co/crzLKF5/Untitled-1.png">
-        <meta property="og:image:secure_url" content="https://i.ibb.co/crzLKF5/Untitled-1.png">
-        <meta name="description" content="Play Happy Wheels online for free, unblocked!">
-        <link rel="icon" type="image/jpeg" sizes="180x180" href="https://i.ibb.co/crzLKF5/Untitled-1.png">
-		<script type="text/javascript" src="https://66games.io/cloak.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Happy Wheels Unblocked</title>
+<script type="text/javascript" src="https://76ezgames.com/controls.js"></script>
+<style>
+      html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body {
+        margin: 0;
+        background: #444;
+      }
+      #gameContainer {
+        width: 100vw;
+        height: 100vh;
+      }
+      canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      /* try to handle mobile dialog */
+      canvas + * {
+        z-index: 2;
+      }
+      .logo {
+          display: block;
+          max-width: 100vw;
+          max-height: 70vh;
+      }
 
-    <style>
-        body {
-            overflow: hidden;
-            background-color: black;
-        }
-        /* width */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
+      .progress {
+          margin: 1.5em;
+          border: 1px solid white;
+          width: 50vw;
+          display: none;
+      }
+      .progress .full {
+          margin: 2px;
+          background: white;
+          height: 1em;
+          transform-origin: top left;
+      }
 
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: ¦666666; 
-        }
-        
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: ¦CCCCCC; 
-        }
+      #loader {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:black;
+      }
 
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: ¦CCCCCC; 
+      .spinner,
+      .spinner:after {
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+      }
+      .spinner {
+        margin: 10px;
+        font-size: 10px;
+        position: relative;
+        text-indent: -9999em;
+        border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-left: 1.1em solid #ffffff;
+        transform: translateZ(0);
+        animation: spinner-spin 1.1s infinite linear;
+      }
+      @keyframes spinner-spin {
+        0% {
+          transform: rotate(0deg);
         }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
 
-        /* stupid firefox */
-        html {scrollbar-color: ¦CCCCCC ¦666666; scrollbar-width: thin; background-color: black;}
     </style>
-
 </head>
-<body oncontextmenu="return false;">
-    <script>
-        function report_loading_issue() {
-            var el = document.createElement("img");
-            el.src = "/DEBUG2/wrong-ref.png?wl=" + window.location + "&wpl=" + window.parent.location + "&wlh=" + window.location.host + "&wplh=" + window.parent.location.host;
-            el.style.position = "absolute";
-            el.style.left = "-9999px";
-            el.style.top = "-9999px";
-            document.body.appendChild(el);
-        }
-		const pathToMyURL = 'https://www-sites-opensocial.googleusercontent.com/gadgets/proxy/refresh=3600&container=enterprise/https://totaljerkface.com/get_level.hw';
-		
-
-        (function() {
-            window["HW_SETTINGS"] = {};
-            if(!(window.location != window.parent.location && window.location.host === "totaljerkface.com" && window.parent.location.host === "totaljerkface.com")) {
-            }
-
-
-            var d_el = document.createElement("script");
-			
-            d_el.src = "js/dependencies.ac8072eb8a22557c1b4828699b35bec7.js";
-            d_el.onload = function() {
-                var i_el = document.createElement("script");
-                i_el.src = "js/index.js";
-                // i_el.integrity = "sha384-GKAptyGydgK2fCaxFPGnAip+60TiYdFsB22A5ax8TB2dqT8ockqX1XI1rsr6fJIH";
-                i_el.onload = function() {
-                    document.getElementById("loading-indicator").remove();
-                }
-
-                document.body.appendChild(i_el);
-            }
-            document.body.appendChild(d_el);
-        })();
-    </script>
-
-    <div id="og-game-holder">
-        <p style="color:white" id="loading-indicator">Loading...</p>
-    </div>
-	
-		
+<body>
+<noscript>No Javascript Supported!</noscript>
+<div id="gameContainer"></div>
+<div id="loader">
+<img class="logo" src="loading.png?v=1">
+<div class="spinner"></div>
+<div class="progress"><div class="full"></div></div>
+</div>
 </body>
+<script src="Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HappyWheels.json", {onProgress: UnityProgress});
+  function UnityProgress(gameInstance, progress) {
+    if (!gameInstance.Module) {
+      return;
+    }
+    const loader = document.querySelector("#loader");
+    if (!gameInstance.progress) {
+      const progress = document.querySelector("#loader .progress");
+      progress.style.display = "block";
+      gameInstance.progress = progress.querySelector(".full");
+      loader.querySelector(".spinner").style.display = "none";
+    }
+    gameInstance.progress.style.transform = `scaleX(${progress})`;
+    if (progress === 1 && !gameInstance.removeTimeout) {
+      gameInstance.removeTimeout = setTimeout(function() {
+          loader.style.display = "none";
+      }, 2000);
+    }
+  }
+  </script>
 </html>

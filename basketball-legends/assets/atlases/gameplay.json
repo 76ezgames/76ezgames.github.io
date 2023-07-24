@@ -1,4 +1,4 @@
-{"frames": {
+﻿{"frames": {
 
 "0bg_gameplay0000":
 {
@@ -18,7 +18,7 @@
 },
 "BallMC0000":
 {
-	"frame": {"x":1963,"y":519,"w":36,"h":36},
+	"frame": {"x":1313,"y":610,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
@@ -34,7 +34,7 @@
 },
 "FrontEar0000":
 {
-	"frame": {"x":1502,"y":321,"w":64,"h":13},
+	"frame": {"x":1190,"y":611,"w":64,"h":13},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":13},
@@ -42,13 +42,21 @@
 },
 "InGameHelpButton0000":
 {
+	"frame": {"x":1356,"y":568,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
+"InGameMusicButton0000":
+{
 	"frame": {"x":1877,"y":180,"w":40,"h":40},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
 	"sourceSize": {"w":40,"h":40}
 },
-"InGamePauseButton0000":
+"InGameMusicButton0001":
 {
 	"frame": {"x":1356,"y":484,"w":40,"h":40},
 	"rotated": false,
@@ -56,9 +64,25 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
 	"sourceSize": {"w":40,"h":40}
 },
+"InGameMusicButton0002":
+{
+	"frame": {"x":1356,"y":526,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
+"InGamePauseButton0000":
+{
+	"frame": {"x":1003,"y":603,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
 "ShadowMC0000":
 {
-	"frame": {"x":1761,"y":515,"w":94,"h":30},
+	"frame": {"x":1676,"y":606,"w":94,"h":30},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":97,"h":30},
@@ -226,7 +250,7 @@
 },
 "ShieldMC20017":
 {
-	"frame": {"x":1676,"y":515,"w":83,"h":94},
+	"frame": {"x":1773,"y":515,"w":83,"h":94},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":14,"y":55,"w":135,"h":176},
@@ -234,7 +258,7 @@
 },
 "ShieldMC20018":
 {
-	"frame": {"x":1676,"y":515,"w":83,"h":94},
+	"frame": {"x":1773,"y":515,"w":83,"h":94},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":14,"y":55,"w":135,"h":176},
@@ -242,7 +266,7 @@
 },
 "ShieldMC20019":
 {
-	"frame": {"x":1676,"y":515,"w":83,"h":94},
+	"frame": {"x":1773,"y":515,"w":83,"h":94},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":14,"y":55,"w":135,"h":176},
@@ -274,7 +298,7 @@
 },
 "arrow_icon20000":
 {
-	"frame": {"x":1857,"y":515,"w":55,"h":41},
+	"frame": {"x":1256,"y":610,"w":55,"h":41},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":41},
@@ -288,13 +312,85 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":10},
 	"sourceSize": {"w":10,"h":10}
 },
+"btn_bg0000":
+{
+	"frame": {"x":1502,"y":230,"w":97,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":91},
+	"sourceSize": {"w":97,"h":91}
+},
 "btn_bg20000":
 {
-	"frame": {"x":1502,"y":230,"w":95,"h":89},
+	"frame": {"x":1676,"y":515,"w":95,"h":89},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":89},
 	"sourceSize": {"w":95,"h":89}
+},
+"icon_ball0000":
+{
+	"frame": {"x":934,"y":603,"w":67,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball0001":
+{
+	"frame": {"x":1968,"y":398,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball0002":
+{
+	"frame": {"x":1968,"y":398,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball0003":
+{
+	"frame": {"x":1968,"y":467,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball20000":
+{
+	"frame": {"x":1858,"y":515,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball20001":
+{
+	"frame": {"x":1927,"y":536,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball20002":
+{
+	"frame": {"x":1927,"y":536,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"icon_ball20003":
+{
+	"frame": {"x":1858,"y":584,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
 },
 "infoPanel0000":
 {
@@ -306,7 +402,7 @@
 },
 "key_hint0000":
 {
-	"frame": {"x":1761,"y":547,"w":28,"h":28},
+	"frame": {"x":1772,"y":611,"w":28,"h":28},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":28},
@@ -314,7 +410,7 @@
 },
 "particleStar0000":
 {
-	"frame": {"x":1356,"y":526,"w":32,"h":32},
+	"frame": {"x":1156,"y":611,"w":32,"h":32},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
@@ -322,7 +418,7 @@
 },
 "shoot_icon0000":
 {
-	"frame": {"x":1968,"y":466,"w":52,"h":51},
+	"frame": {"x":1987,"y":605,"w":52,"h":51},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":51},
@@ -330,7 +426,7 @@
 },
 "shoot_icon0001":
 {
-	"frame": {"x":1914,"y":515,"w":47,"h":43},
+	"frame": {"x":1996,"y":536,"w":47,"h":43},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":52,"h":51},
@@ -346,7 +442,7 @@
 },
 "teleport20000":
 {
-	"frame": {"x":1968,"y":398,"w":58,"h":66},
+	"frame": {"x":1927,"y":605,"w":58,"h":66},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":66},
@@ -354,7 +450,7 @@
 },
 "teleport30000":
 {
-	"frame": {"x":2001,"y":519,"w":36,"h":36},
+	"frame": {"x":1351,"y":610,"w":36,"h":36},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":78,"y":99,"w":200,"h":226},

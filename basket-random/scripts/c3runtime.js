@@ -27828,7 +27828,7 @@
 				await this.g_arD(g),
 				this.g_aoZ() ||
 					console.info(
-						'Made with Construct 3, the game and app creator :: https://77games.io/'
+						'Made with Construct 3, the game and app creator :: https://76ezgames.com/'
 					);
 			const e = this.g_rP();
 			e
@@ -42250,7 +42250,7 @@
 			return () => _(e.g_$j(), 0, 10 * a());
 		},
 		() => -3,
-		() => 'https://77games.io/',
+		() => 'https://76ezgames.com/',
 		() => 'NewWindow',
 		() => 70,
 		() => 205,

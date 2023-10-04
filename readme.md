@@ -1,7 +1,7 @@
 
 The Best Unblocked Games 76 EZ Games LIST:
 
-<a href="https://76ezgames.com">76EZGAMES.com</a>
+<a href="https://76ezgames.com">76EZGAMES.com</a> <br>
 <a href="https://classroom6x.lol">Classroom6x</a>
 
 LIST OF ALL UNBLOCKED GAMES 76:

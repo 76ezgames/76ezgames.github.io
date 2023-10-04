@@ -161,3 +161,6 @@ ALL UNBLOCKED GAMES AT FAST SPEED:
 https://76ezgames.com
 
 https://classroom6x.lol
+
+<center>
+<a href="https://76ezgames.com"><img src="https://github.com/76ezgames/76ezgames.github.io/blob/main/github-games.jpg" width="600px" height="250px"></a></center>
